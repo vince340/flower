@@ -84,10 +84,24 @@ greetings>span:nth-child(10) {
   margin-bottom: 20px;
 }
 
+.button {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .button a {
   text-decoration: none;
   font-size: 1rem;
   color: #111;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #fff;
 }
 
 @media screen and (max-width:574px) {
